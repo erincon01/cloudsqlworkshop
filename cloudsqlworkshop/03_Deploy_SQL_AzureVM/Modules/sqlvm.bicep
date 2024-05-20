@@ -85,6 +85,7 @@ resource SQLvm 'Microsoft.Compute/virtualMachines@2022-03-01' = {
           storageAccountType: 'Standard_LRS'
         }
       }
+
       imageReference: {
         publisher: 'MicrosoftSQLServer'
         offer: 'SQL2019-WS2019'

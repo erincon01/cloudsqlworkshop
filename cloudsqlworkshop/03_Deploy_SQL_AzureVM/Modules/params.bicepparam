@@ -24,5 +24,3 @@ param publicipSku = 'Standard'
 param publicIPAllocationMethod = 'Static'
 param dnsLabelPrefix = 'lab03-sqlvm'
 param networkSecurityGroupName = 'lab03-nsg-sqlvm'
-
-
